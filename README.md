@@ -23,7 +23,7 @@ Some data analysis can be found in `data-analysis.ipynb`. To run it:
 
 - Create a `venv`: `python3 -m venv venv`
 - Turn it on: `source venv/bin/activate`
-- Install the dependencies: `pip3 intstall -r requirements.txt`
+- Install the dependencies: `pip3 install -r requirements.txt`
 - In `data-analysis.ipynb`, edit the line `df = pd.read_csv(\"time-spent-2023-01.csv\",dtype=dtypes)`, replacing `time-spent-2023-01.csv` with the name of your CSV file (`time-spent.csv` if you have not renamed it).
 - Run `jupyter notebook` which will open jupyter in the browser.
 
